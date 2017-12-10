@@ -1,0 +1,19 @@
+{
+  "name": "geckos-29",
+  "version": "1.0.0",
+  "description": "this project is build under cohort",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chingu-voyage3/geckos-29.git"
+  },
+  "author": "github.com/praveeno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chingu-voyage3/geckos-29/issues"
+  },
+  "homepage": "https://github.com/chingu-voyage3/geckos-29#readme"
+}
