@@ -1,0 +1,15 @@
+{
+  "name": "hackr.io_testing",
+  "version": "1.0.0",
+  "description": "Testing Submit Tutorial Page",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "~1.14.2",
+    "consolidate": "~0.13.1",
+    "express": "~4.13.3",
+    "mongodb": "^2.2.19",
+    "nunjucks": "^2.2.0"
+  },
+  "author": "Abid Rahim",
+  "license": "OBSD"
+}
