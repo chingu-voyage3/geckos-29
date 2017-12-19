@@ -18,10 +18,10 @@ export class HomeComponent implements OnInit{
 
     }
 
-    ngOnInit(): void { 
-        this.homeService
-            .getTopics()
-            .subscribe((data : Topic[]) => this.topics = data);
+    ngOnInit(): void {         
+         this.homeService
+             .getTopics()
+             .subscribe((data : Topic[]) => this.topics = data);
     }
 
 }

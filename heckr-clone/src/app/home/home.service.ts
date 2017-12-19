@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Http, Response } from '@angular/http'
+import { Http, Response } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
@@ -8,7 +8,7 @@ import 'rxjs/add/observable/throw';
 
 import { Topic } from './models/topic.interface';
 
-const TOPIC_API: string = '/api/topics';
+const TOPIC_API: string = 'http://localhost:3000/topics';
 
 @Injectable()
 export class HomeService {
