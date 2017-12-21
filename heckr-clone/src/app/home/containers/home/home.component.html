@@ -5,7 +5,10 @@
   <hr>
   <div>
     <div class="container">
-      <topic *ngFor="let topic of topics"></topic>
+      <topic 
+        *ngFor="let topic of topics;"
+        [detail]="topic">
+    </topic>
     </div>
 
   </div>

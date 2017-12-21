@@ -19,6 +19,7 @@ export class HomeService {
     getTopics(): Observable<Topic[]> {
         return this.http
             .get(TOPIC_API)
-            .map((response: Response) => response.json());
+            .map((response: Response) => response.json())
+            .catch((error: any) => Observable.throw(error.json()));
     }
 }
